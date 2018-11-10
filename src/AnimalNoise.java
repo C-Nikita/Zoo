@@ -22,6 +22,8 @@ public class AnimalNoise {
 		System.out.println(slitherySnake.speak());
 		Wolf wolfy = new Wolf();
 		System.out.println(wolfy.speak());
+		Dog roger = new Dog("Roger", "Great Dane", 6);
+		System.out.println(roger.speak());
 	}
 
 }
