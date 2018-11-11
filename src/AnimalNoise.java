@@ -1,4 +1,13 @@
-import model.*;
+import model.Cat;
+import model.Cow;
+import model.Dog;
+import model.Eagle;
+import model.Mouse;
+import model.Rat;
+import model.RedPanda;
+import model.Snake;
+import model.Wolf;
+import model.Wolverine;
 
 
 public class AnimalNoise {
@@ -24,6 +33,10 @@ public class AnimalNoise {
 		System.out.println(wolfy.speak());
 		Dog roger = new Dog("Roger", "Great Dane", 6);
 		System.out.println(roger.speak());
+		
+		//Jonah Zirkle
+		Cow bovine = new Cow(1500, "brown", "dairy");
+		System.out.println(bovine.speak());
 	}
 
 }
