@@ -6,6 +6,7 @@ import model.Mouse;
 import model.Rat;
 import model.RedPanda;
 import model.Snake;
+import model.Squirrel;
 import model.Wolf;
 import model.Wolverine;
 
@@ -33,6 +34,8 @@ public class AnimalNoise {
 		System.out.println(wolfy.speak());
 		Dog roger = new Dog("Roger", "Great Dane", 6);
 		System.out.println(roger.speak());
+		Squirrel bino = new Squirrel("White", 3, 20.0);
+		System.out.println(bino.speak());
 		
 		//Jonah Zirkle
 		Cow bovine = new Cow(1500, "brown", "dairy");
