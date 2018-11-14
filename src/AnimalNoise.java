@@ -1,4 +1,5 @@
 import model.Cat;
+import model.Chihuahua;
 import model.Cow;
 import model.Dog;
 import model.Eagle;
@@ -37,6 +38,9 @@ public class AnimalNoise {
 		System.out.println(roger.speak());
 		Squirrel bino = new Squirrel("White", 3, 20.0);
 		System.out.println(bino.speak());
+		Chihuahua edward = new Chihuahua("edward", 4, true);
+		System.out.println(edward.speak());
+		
 		
 		//Jonah Zirkle
 		Cow bovine = new Cow(1500, "brown", "dairy");
