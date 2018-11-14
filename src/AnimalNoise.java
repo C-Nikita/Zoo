@@ -2,6 +2,7 @@ import model.Cat;
 import model.Cow;
 import model.Dog;
 import model.Eagle;
+import model.Frog;
 import model.Mouse;
 import model.Rat;
 import model.RedPanda;
@@ -40,6 +41,10 @@ public class AnimalNoise {
 		//Jonah Zirkle
 		Cow bovine = new Cow(1500, "brown", "dairy");
 		System.out.println(bovine.speak());
+		
+		// Craig Longnecker
+		Frog froggy = new Frog("Leopard", "green with spots", "adult");
+		System.out.println(froggy.speak());
 	}
 
 }
