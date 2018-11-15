@@ -11,6 +11,7 @@ import model.Snake;
 import model.Squirrel;
 import model.Wolf;
 import model.Wolverine;
+import model.Elephant;
 
 
 public class AnimalNoise {
@@ -49,6 +50,10 @@ public class AnimalNoise {
 		// Craig Longnecker
 		Frog froggy = new Frog("Leopard", "green with spots", "adult");
 		System.out.println(froggy.speak());
+		
+		// Henry Dang
+		Elephant bushElephant = new Elephant(8125, "Grey", 45);
+		System.out.println(bushElephant.speak());
 	}
 
 }
