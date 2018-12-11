@@ -5,6 +5,7 @@ import model.Dog;
 import model.Eagle;
 import model.Frog;
 import model.Mouse;
+import model.Raccoon;
 import model.Rat;
 import model.RedPanda;
 import model.Snake;
@@ -21,6 +22,8 @@ public class AnimalNoise {
 	public static void main(String[] args) {
 		Cat fluffy = new Cat();
 		System.out.println(fluffy.speak());
+		Raccoon rachel = new Raccoon();
+		System.out.println(rachel.speak());
 		RedPanda thief = new RedPanda();
 		System.out.println(thief.speak());
 		Eagle bucky = new Eagle("Bald Eagle", 6.6, 12);
